@@ -1,0 +1,15 @@
+{
+  "name": "hlcode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "c8it365 <c8it365@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "nw": "^0.36.3",
+    "nw-builder": "^3.5.7"
+  },
+  "scripts": {
+    "debug": "nw src/",
+    "build": "nwbuild -p linux32,linux64,osx64,win32,win64 src/"
+  }
+}

@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+button {
+  background-color: dodgerblue;
+  border-style: none;
+  color: white;
+  display: block;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 5px 15px;
+}
+
+button:hover {
+  background-color: deepskyblue;
+  transition: all .5s;
+}
+
+input[type="text"] {
+  font-family: monospace;
+}
+
+label {
+  float: left;
+  margin-right: 10px;
+  width: 150px;
+}
+
+#menu {
+  background-color: lightblue;
+  padding: 10px;
+}
+
+#menu summary {
+  font-weight: bold;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+ul {
+  margin: 0 auto;
+  width: 500px;
+}
+
+ul li {
+  margin-top: 10px;
+  list-style: none;
+}
+
+ul li.filePath {
+  margin-bottom: 40px;
+}

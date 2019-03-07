@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>hlcode</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/atom-one-dark.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <details id="menu">
+    <summary>Menu</summary>
+    <ul>
+      <li class="urlScheme">
+        <label for="urlScheme">URL Scheme</label>
+        <input id="urlScheme" name="urlScheme" placeholder="https" size="30" type="text" value="https">
+      </li>
+      <li class="hostName">
+        <label for="hostName">Hostname</label>
+        <input id="hostName" name="hostName" placeholder="raw.githubusercontent.com" size="30" type="text" value="raw.githubusercontent.com">
+      </li>
+      <li class="userName">
+        <label for="userName">Username</label>
+        <input id="userName" name="userName" placeholder="c8it365" size="30" type="text">
+      </li>
+      <li class="repositoryName">
+        <label for="repositoryName">Repository name</label>
+        <input id="repositoryName" name="repositoryName" placeholder="hlcode" size="30" type="text">
+      </li>
+      <li class="branchName">
+        <label for="branchName">Branch name</label>
+        <input id="branchName" name="branchName" placeholder="master" size="30" type="text" value="master">
+      </li>
+      <li class="filePath">
+        <label for="filePath">Filepath</label>
+        <input id="filePath" name="filePath" placeholder="src/www/index.html" size="30" type="text">
+      </li>
+      <li class="viewSource">
+        <label for="viewSource"></label>
+        <button id="viewSource" name="viewSource">View source</button>
+      </li>
+    </ul>
+  </details>
+  <pre><code id="codeArea"></code></pre>
+</body>
+</html>
